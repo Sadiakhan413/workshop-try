@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+</head>
+<body>
+    <br><br>
+    <a href="./index.html" style="padding: 5%;" >Home</a>
+    <a href="./projects.html"style="padding: 8%;">Projects</a>
+    <a href="./contact.html" style="padding: 8%;">Contact</a>
+    <a href="./skills.html" style="padding: 8%;">Skills</a> 
+    <a href="./feedback.html" style="padding: 8%;">Feedback</a> <br> <br>
+    <h1 style="text-align: center;">Feedback</h1>
+    <form style="border: 1px solid; text-align: center; width: fit-content;" >
+        <p>How would you rate this workshop?</p>
+        <input type="radio" id="rating1" name="rating" value="Excellent">
+        <label for="rating1">Excellent</label>
+        <input type="radio" id="rating2" name="rating" value="Good">
+        <label for="rating2">Good</label>
+        <input type="radio" id="rating3" name="rating" value="Fair">
+        <label for="rating3">Fair</label>
+        <input type="radio" id="rating4" name="rating" value="Poor">
+        <label for="rating4">Poor</label>
+        <p>How satisfied were you with the workshop content?</p>
+        <select id="satisfaction" name="satisfaction">
+          <option value="Very Satisfied">Very Satisfied</option>
+          <option value="Somewhat Satisfied">Somewhat Satisfied</option>
+          <option value="Neutral">Neutral</option>
+          <option value="Somewhat Dissatisfied">Somewhat Dissatisfied</option>
+          <option value="Very Dissatisfied">Very Dissatisfied</option>
+        </select>
+        <p>Do you have any comments or suggestions?</p>
+  <textarea id="comments" name="comments"></textarea>
+  
+  <!-- Submit Button -->
+  <div>
+    <input type="submit" value="Submit Feedback">
+
+  </div>
+    </form>
+
+</body>
+</html>
